@@ -5,6 +5,11 @@
   font-family: Lato, sans-serif;
 }
 
+.section_add-item{
+margin-block-start: 1rem;
+margin-block-end: 1rem;
+}
+
 .banner {
   width: 500px;
   margin: 0 auto;
@@ -35,7 +40,8 @@
 }
 
 .add-task__input,
-.task-list__input {
+.task-list__input, 
+.task-list__label{
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -156,7 +162,7 @@ button {
 }
 
 /* Completed */
-#completedTasks .task-list__label {
+#completed-tasks .task-list__label {
   text-decoration: line-through;
   color: #888;
 }
