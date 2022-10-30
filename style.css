@@ -43,7 +43,8 @@
 .task-list__item {
   list-style: none;
 }
-input,
+.task-list__input,
+.task-list__check,
 .add-task__button,
 .task-list__button {
   outline: none;
@@ -125,12 +126,12 @@ input,
 .task-list__item > .task-list__input {
   width: 226px;
 }
-.task-list__button_delete img {
+.task-list__button_delete .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.task-list__button_delete img:hover {
+.task-list__button_delete .delete-img:hover {
   transform: rotateZ(0);
 }
 
@@ -150,6 +151,6 @@ input,
   width: 224px;
 }
 
-.task-list__item label {
+.task-list__item_edit .task-list__label {
   display: none;
 }
