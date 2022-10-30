@@ -17,24 +17,24 @@
       </a>
     </aside>
     <main class="main">
-      <section>
+      <section class="add-item-section">
         <h3>Add Item</h3>
         <div class="task-row-wrapper">
           <input id="newTask" class="new-task" type="text">
           <button>Add</button>
         </div>
       </section>
-      <section>
+      <section class="todo-section">
         <h3>Todo</h3>
-        <ul id="uncompletedTasks">
-          <li>
+        <ul id="uncompletedTasks" class="task-list">
+          <li class="task-list__item">
             <input type="checkbox">
             <label class="new-task">Pay Bills</label>
             <input type="text" class="new-task">
             <button class="edit">Edit</button>
             <button class="delete"><img src="./remove.svg" alt=""></button>
           </li>
-          <li class="editMode">
+          <li class="task-list__item task-list__item_edit">
             <input type="checkbox">
             <label class="new-task">Go Shopping</label>
             <input type="text" value="Go Shopping" class="new-task">
@@ -42,10 +42,10 @@
             <button class="delete"><img src="./remove.svg" alt=""></button>
         </ul>
       </section>
-      <section>
+      <section class="completed-section">
         <h3>Completed</h3>
-        <ul id="completedTasks">
-          <li>
+        <ul id="completedTasks" class="task-list">
+          <li class="task-list__item">
             <input type="checkbox" checked>
             <label class="new-task">See the Doctor</label>
             <input type="text" class="new-task">
