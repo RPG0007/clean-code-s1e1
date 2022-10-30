@@ -36,17 +36,15 @@
 .add-task {
   display: flex;
 }
-.task-list{
+ul {
   margin: 0;
   padding: 0px;
 }
-.task-list__item {
+li {
   list-style: none;
 }
-.task-list__input,
-.task-list__check,
-.add-task__button,
-.task-list__button {
+input,
+button {
   outline: none;
 }
 .add-task__button,
